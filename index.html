@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joms Portfolio</title>
+<meta name="description" content="Portfolio of Joemari 'Joms' Cuyacot, a 4th-year Computer Science student and aspiring front-end developer, UI/UX designer, and graphic designer based in Pasig City, Philippines.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ LOADING SCREEN ============ -->
+<div id="loader" aria-hidden="true">
+  <div class="loader-inner">
+    <span class="loader-mark">JOMS</span>
+    <span class="loader-sub">Portfolio</span>
+    <div class="loader-bar"><span class="loader-bar-fill"></span></div>
+  </div>
+</div>
+
+
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="site-header" id="site-header">
+  <nav class="navbar" aria-label="Primary">
+    <a href="#home" class="nav-logo">Joms</a>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#work" class="nav-link">Work</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <a href="#contact" class="btn btn-pill nav-cta">Let's Talk</a>
+
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#work" class="mobile-link">Work</a>
+    <a href="#journey" class="mobile-link">Experience</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+    <a href="#contact" class="btn btn-pill btn-block">Let's Talk</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-grid">
+      <div class="hero-copy" data-reveal>
+        <p class="eyebrow">Joemari Cuyacot</p>
+        <h1 class="hero-name">Hello<br>I'm <span class="hero-highlight">Joms</span></h1>
+        <p class="hero-role">Aspiring Front-End Developer, UI/UX Designer &amp; Graphic Designer.</p>
+        <p class="hero-desc">I create clean digital experiences, interfaces, and visual designs that combine functionality with creativity.</p>
+
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">View My Work</a>
+          <a href="assets/resume/joms-resume.pdf" download class="btn btn-secondary">Download Resume</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-reveal>
+        <div class="hero-frame">
+          <img src="assets/profile/joms6.jpg" alt="Portrait of Joemari Cuyacot" class="hero-photo"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="placeholder-block hero-placeholder" style="display:flex;">
+            <span>JC</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHAT I DO ============ -->
+  <section class="section identity" id="identity">
+    <p class="eyebrow" data-reveal>What I Do</p>
+    <ul class="identity-list">
+      <li class="identity-item" data-reveal>
+        <a href="#work" class="identity-link">
+          <span class="identity-index">01</span>
+          <span class="identity-title">Front-End Development</span>
+          <span class="identity-arrow" aria-hidden="true">↗</span>
+        </a>
+      </li>
+      <li class="identity-item" data-reveal>
+        <a href="#work" class="identity-link">
+          <span class="identity-index">02</span>
+          <span class="identity-title">UI/UX Design</span>
+          <span class="identity-arrow" aria-hidden="true">↗</span>
+        </a>
+      </li>
+      <li class="identity-item" data-reveal>
+        <a href="#work" class="identity-link">
+          <span class="identity-index">03</span>
+          <span class="identity-title">Graphic Design</span>
+          <span class="identity-arrow" aria-hidden="true">↗</span>
+        </a>
+      </li>
+      <li class="identity-item" data-reveal>
+        <a href="#work" class="identity-link">
+          <span class="identity-index">04</span>
+          <span class="identity-title">Web Design</span>
+          <span class="identity-arrow" aria-hidden="true">↗</span>
+        </a>
+      </li>
+      <li class="identity-item" data-reveal>
+        <a href="#work" class="identity-link">
+          <span class="identity-index">05</span>
+          <span class="identity-title">Creative Development</span>
+          <span class="identity-arrow" aria-hidden="true">↗</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section about" id="about">
+    <div class="about-grid">
+      <h2 class="about-heading" data-reveal>Design and technology have always been two sides of my creativity.</h2>
+
+      <div class="about-body" data-reveal>
+        <p>I'm Joemari, but you can call me Joms. I'm a 4th-year Computer Science student at Arellano University Main Campus with a growing passion for front-end development, UI/UX design, and graphic design.</p>
+        <p>I enjoy transforming ideas into clean interfaces, functional websites, and visual experiences. My background in Computer Science allows me to approach design with both creativity and technical thinking.</p>
+
+        <div class="about-facts">
+          <div class="about-fact">
+            <span class="about-fact-label">Education</span>
+            <span class="about-fact-value">Arellano University Main Campus</span>
+            <span class="about-fact-sub">Bachelor of Science in Computer Science — 4th Year</span>
+            
+          </div>
+          <div class="about-fact">
+            <span class="about-fact-label">Location</span>
+            <span class="about-fact-value">Pasig City, Philippines</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SELECTED WORK ============ -->
+  <section class="section work" id="work">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">Selected Work</p>
+      <h2 class="section-title">Projects I've built so far...</h2>
+    </div>
+
+    <div class="project-list" id="project-list"><!-- injected by script.js --></div>
+  </section>
+
+  <!-- ============ LIVE PROJECT SHOWCASE ============ -->
+  <section class="section live-showcase" id="live">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">Explore My Websites</p>
+      <h2 class="section-title">Projects you can open right now.</h2>
+    </div>
+
+    <div class="live-grid" id="live-grid"><!-- injected by script.js --></div>
+  </section>
+
+  <!-- ============ POSTER GALLERY ============ -->
+  <section class="section posters" id="posters">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">Selected Posters</p>
+      <h2 class="section-title">A collection of visual experiments, poster designs, and creative work.</h2>
+    </div>
+
+    <div class="poster-grid" id="poster-grid"><!-- injected by script.js --></div>
+  </section>
+
+  <!-- ============ JOURNEY / EXPERIENCE ============ 
+  <section class="section journey" id="journey">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">Experience</p>
+      <h2 class="section-title">My Journey</h2>
+    </div>
+
+    <ol class="timeline">
+      <li class="timeline-item" data-reveal>
+        <span class="timeline-year">2022</span>
+        <p class="timeline-text">Started developing an interest in technology and creative design.</p>
+      </li>
+      <li class="timeline-item" data-reveal>
+        <span class="timeline-year">2023</span>
+        <p class="timeline-text">Explored web development, programming, and graphic design.</p>
+      </li>
+      <li class="timeline-item" data-reveal>
+        <span class="timeline-year">2024</span>
+        <p class="timeline-text">Expanded skills in UI/UX design, web development, and software projects.</p>
+      </li>
+      <li class="timeline-item" data-reveal>
+        <span class="timeline-year">2025</span>
+        <p class="timeline-text">Worked on academic software projects and developed stronger design skills.</p>
+      </li>
+      <li class="timeline-item" data-reveal>
+        <span class="timeline-year">2026</span>
+        <p class="timeline-text">4th Year BS Computer Science Student — Aspiring Front-End Developer &amp; UI/UX Designer.</p>
+      </li>
+    </ol>
+  </section>-->
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section skills" id="skills">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">Skills</p>
+      <h2 class="section-title">Tools and languages I work with.</h2>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-group" data-reveal>
+        <h3 class="skill-group-title">Development</h3>
+        <ul class="pill-list">
+          <li class="pill">HTML</li>
+          <li class="pill">CSS</li>
+          <li class="pill">JavaScript</li>
+          <li class="pill">React</li>
+          <li class="pill">PHP</li>
+          <li class="pill">Python</li>
+          <li class="pill">SQL / MySQL</li>
+        </ul>
+      </div>
+
+      <div class="skill-group" data-reveal>
+        <h3 class="skill-group-title">Design</h3>
+        <ul class="pill-list">
+          <li class="pill">UI/UX Design</li>
+          <li class="pill">Figma</li>
+          <li class="pill">Graphic Design</li>
+          <li class="pill">Adobe Photoshop</li>
+          <li class="pill">Adobe Illustrator</li>
+        </ul>
+      </div>
+
+      <div class="skill-group" data-reveal>
+        <h3 class="skill-group-title">Tools</h3>
+        <ul class="pill-list">
+          <li class="pill">Git</li>
+          <li class="pill">GitHub</li>
+          <li class="pill">Visual Studio</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DESIGN PHILOSOPHY ============ -->
+  <section class="section philosophy" id="philosophy">
+    <blockquote class="philosophy-quote" data-reveal>
+      "I believe good design should look simple, feel intuitive, and solve a real problem."
+    </blockquote>
+    <p class="philosophy-body" data-reveal>
+      I try to keep every project grounded in that idea, whether I'm writing code or laying out a poster. Good work starts with understanding the problem, stays honest about constraints, and gets simpler with every revision rather than more complicated.
+    </p>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact" id="contact">
+    <div class="contact-inner">
+      <h2 class="contact-heading" data-reveal>Let's Create Something Great</h2>
+      <p class="contact-sub" data-reveal>Have a project, idea, or opportunity in mind? I'd love to connect and talk about it.</p>
+
+      <div class="contact-details" data-reveal>
+        <div class="contact-item">
+          <span class="contact-label">Email</span>
+          <a href="mailto:joemaricuyacot8@gmail.com" class="contact-value">joemaricuyacot8@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Phone</span>
+          <a href="tel:09953595450" class="contact-value">0995 359 5450</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Socials</span>
+          <div class="social-links">
+            <a href="https://www.facebook.com/jojo.nani.509" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 8h3V4h-3c-3.31 0-5 1.69-5 5v3H6v4h3v8h4v-8h3.2l.8-4H13V9c0-.55.45-1 1-1Z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/z.mojs/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" class="social-icon-detail"/></svg>
+            </a>
+            <a href="https://github.com/Jomzjoms" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.61-3.37-1.17-3.37-1.17-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 7.01c.85 0 1.71.12 2.51.36 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-actions" data-reveal>
+        <a href="mailto:joemaricuyacot8@gmail.com" class="btn btn-primary">Send Me an Email</a>
+        <a href="tel:09953595450" class="btn btn-secondary">Let's Talk</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <span class="footer-logo">Joms</span>
+      <p class="footer-name">Joemari Cuyacot</p>
+      <p class="footer-role">Front-End Developer • UI/UX Designer • Graphic Designer</p>
+      <p class="footer-location">Pasig City, Philippines</p>
+    </div>
+
+    <div class="footer-col">
+      <span class="footer-col-title">Contact</span>
+      <a href="mailto:joemaricuyacot8@gmail.com" class="footer-link">joemaricuyacot8@gmail.com</a>
+      <a href="tel:09953595450" class="footer-link">0995 359 5450</a>
+    </div>
+
+    <div class="footer-col">
+      <span class="footer-col-title">Navigation</span>
+      <a href="#about" class="footer-link">About</a>
+      <a href="#work" class="footer-link">Work</a>
+      <a href="#contact" class="footer-link">Contact</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Joemari Cuyacot. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- ============ ARTWORK LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Artwork viewer" hidden>
+  <button class="lightbox-close" id="lightbox-close" aria-label="Close artwork viewer">×</button>
+  <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous artwork">‹</button>
+  <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next artwork">›</button>
+
+  <div class="lightbox-content">
+    <div class="lightbox-image-wrap">
+      <img id="lightbox-image" src="" alt="">
+      <div class="placeholder-block lightbox-placeholder" id="lightbox-placeholder"></div>
+    </div>
+    <p class="lightbox-title" id="lightbox-title"></p>
+    <p class="lightbox-meta" id="lightbox-meta"></p>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
