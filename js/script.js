@@ -149,8 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { title: 'Skull with Rose', category: 'Love Quote Poster', year: '2026', aspect: '5/4', image: 'assets/posters/poster-6.jpg' },
     { title: 'Yoonchae', category: 'Grunge Artist Poster', year: '2026', aspect: '3/4', image: 'assets/posters/poster-4.jpg' },
     { title: 'Billie Eilish', category: 'Vintage style Poster', year: '2026', aspect: '3/4', image: 'assets/posters/poster-5.jpg' },
-
-    { title: 'All flesh rots', category: 'Grunge Art Poster', year: '2025', aspect: '6/4', image: 'assets/posters/poster-7.jpg' },
+   { title: 'Marikina Chapter 37 Years Anniversary', category: 'Anniversary Poster', year: '2026', aspect: '6/4', image: 'assets/posters/poster-7.jpg' },
   ];
 
   /* ------------------------------------------------------------------
